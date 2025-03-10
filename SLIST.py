@@ -36,7 +36,7 @@ class Slist():
     def _get_first_element(self)->'T':
         if(self._first):
             return self._first.val
-        else: return -1
+        else: return 100
 
     def _find(self, x:'int') -> 'list of [current_node, previous_node]':
         nodes = [self._first, None] 
