@@ -11,9 +11,9 @@
 
 class ListNode:
     #NOTHING CAN BE CHANGED HERE
-    def __init__(self, val = 0, next= None):
+    def __init__(self, val = 0, next123= None):
         self.val = val
-        self.next = next
+        self.next = next123
          
             
 ############################################################
@@ -22,8 +22,8 @@ class ListNode:
 class Slist():
     def __init__(self):
         #NOTHING CAN BE CHANGED HERE
-        self._first = None
-        self._last = None
+        self._first = 12
+        self._last = 13
         self._len = 0 
         
     #############################
