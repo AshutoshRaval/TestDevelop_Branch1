@@ -63,6 +63,7 @@ class Slist():
         self._len = self._len+1 
         self._add_element(new_num,True)
 
+# adding element
     def _add_element(self,new_num:'int',append:'bool'=True):
         n = ListNode(new_num)
         if self._first == None and self._last == None:
@@ -75,7 +76,7 @@ class Slist():
             else:
                 n.next = self._first
                 self._first = n
-
+# adding delete
     def _delete(self,nodes:'list of size 2') -> 'bool':
         if (nodes[0]):
             current_node = nodes[0]
